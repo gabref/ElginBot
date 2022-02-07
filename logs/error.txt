@@ -1,0 +1,10 @@
+2022-02-02T04:28:45.150Z : Switch Case WhastappNotifications não encontrou nenhum "customId": "sat mfe"
+2022-02-02T04:42:13.950Z : Switch Case WhastappNotifications não encontrou nenhum "customId": "self checkout"
+2022-02-02T05:11:31.254Z : Switch Case WhastappNotifications não encontrou nenhum "customId": "leitores de-mão"
+2022-02-02T05:14:07.231Z : Switch Case WhastappNotifications não encontrou nenhum "customId": "pdv m10-android"
+2022-02-02T05:14:55.460Z : Switch Case WhastappNotifications não encontrou nenhum "customId": "self checkout"
+2022-02-03T17:01:30.478Z : Switch Case WhastappNotifications não encontrou nenhum "customId": "pos elginpay-android"
+2022-02-04T11:08:24.776Z : ID do vídeo no youtube não encontrado
+2022-02-07T03:35:43.241Z : TypeError [INVALID_TYPE]: Supplied roles is not a Role, Snowflake or Array or Collection of Roles or Snowflakes.
+2022-02-07T03:37:32.468Z : TypeError [INVALID_TYPE]: Supplied roles is not a Role, Snowflake or Array or Collection of Roles or Snowflakes.
+2022-02-07T04:07:41.798Z : ReferenceError: cargos is not defined

@@ -1,0 +1,4 @@
+https://templater-usa.hanshowcloud.net/login
+
+barcode -> last 10 digits -> change to hex -> id
+
