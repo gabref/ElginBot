@@ -4,7 +4,6 @@ const DB = require('../../Structures/Schemas/Ticket')
 module.exports = {
     name: "ticket",
     description: "Ticket Actions.",
-    permission: "ADMINISTRATOR",
     options: [
         {
             name: "action",
@@ -29,6 +28,9 @@ module.exports = {
      */
     async execute(interaction) {
         const { guildId, options, channel } = interaction;
+
+        const supportID = "938999423957082182";
+        if(!interaction.member.roles.cache.has(supportID)) return interaction.reply({ content: "Você não pode usar esse comando."})
 
         const Action = options.getString("action");
         const Member = options.getMember("member");

@@ -54,7 +54,7 @@ module.exports = {
                 name: `${guild.name} | Ticket: ${ID}`,
                 iconURL: guild.iconURL({ dynamic: true })
             })
-            .setDescription("Por favor, espera rapidão que alguém da equipe vem aqui. Enquanto isso descreve o seu problema em detalhes.")
+            .setDescription("Por favor, espera rapidão que alguém da equipe vem aqui. Enquanto isso descreve o seu problema em detalhes.\nAproveita e já coloca os dados para contato, para facilitar o nosso suporte 😀.\n\nNome:\nCNPJ:\nTelefone:\nEmail:\n")
             .setFooter({ text: "Os botões abaixo são para a equipe." });
     
             const Buttons = new MessageActionRow();

@@ -1,4 +1,6 @@
 {
-    "reactions": ["🐍", "🧱", "👴", "↗", "🪓", "⚔", "🎮", "🏛", "🍎", "📊", "🎲", "🔧", "📱", "🔥", "🧊", "🤳", "🎓", "🚈", "🥽", "🔲"],
-    "cargos": ["Python", "Java", "VB6", "Javascript", "C", "C++", "C#", "Delphi", "Swift", "SQL", "Dart", "Rust", "Flutter", "Fire Monkey", "Ionic", "Xamarin Android", "Xamarin Forms", "Kotlin", "ReactNative", "WinDev"]
+    "reactionsL": ["🐍", "🧱", "👴", "↗", "🪓", "⚔", "🎮", "🏛", "🍎", "📊", "🎲", "🔧", "📱", "🔥", "🧊", "🤳", "🎓", "🚈", "🥽", "🔲"],
+    "cargosL": ["Python", "Java", "VB6", "Javascript", "C", "C++", "C#", "Delphi", "Swift", "SQL", "Dart", "Rust", "Flutter", "Fire Monkey", "Ionic", "Xamarin Android", "Xamarin Forms", "Kotlin", "ReactNative", "WinDev", "Trainee", "Junior", "Plêno", "Sênior"],
+    "reactionsI": ["💘", "💓"],
+    "reactionsC": ["🥥", "💩"]
 }
