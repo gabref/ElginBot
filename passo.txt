@@ -3,3 +3,6 @@ https://templater-usa.hanshowcloud.net/login
 barcode -> last 10 digits -> change to hex -> id
 
 channel: #📬┊abrir-um-ticket category: #╭ 👨💻 | TICKET SYSTEM ╮ transcripts: #📓┊transcripts handlers: @Equipe Suporte everyone: @@everyone description: Precisa de ajuda com algum equipamento? Abra um ticket clicando em um dos botões, um novo canal de texto será criado. Aqui embaixo vai aparecer o link pra esse canal! Vai lá e descreva seu problema que jajá alguém da Equipe de Suporte vai te ajudar firstbutton: PDV M10 Android,💻 secondbutton: POS ElginPay Android,📟 thirdbutton: SAT-MFE,🍥 fourthbutton: Balanças,⚖️ fifthbutton: Totem e AutoAtendimento,🛬 sixthbutton: Impressoras de Etiquetas,🖨️ seventhbutton: Impressoras Térmicas,🌡️ eighthbutton: Leitores de Mão,🖐️ ninthbutton: Computadores,💾 tenthbutton: Gaveta ,🗄️ 11button: Etiquetas Eletrônicas,🇱🇦 12button: Terminais Consulta,🚧 13button: Monitores,💠 14button: Self-Checkout,🤳 15button: Leitores Fixos,⏸️
+
+
+indicadores nas stats de quantidade de membros por produto, por linguagem

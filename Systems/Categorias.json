@@ -1,6 +1,6 @@
 {
     "Totem e AutoAtendimento": ["Samuel_Moreira", "Sergio_Moreira"],
-    "POS ElginPay Android": ["Samuel_Moreira", "Felipe_Moireira"],
+    "POS ElginPay Android": ["Samuel_Moreira", "Felipe_Moreira"],
     "Leitores Fixos": ["Samuel_Moreira", "Patrick", "Guilherme", "Richard", "Sergio"],
     "Monitores": ["Samuel_Moreira", "Sergio"],
     "Balanças": ["Samuel_Moreira", "Patrick", "Guilherme", "Richard", "Sergio"],
@@ -13,5 +13,5 @@
     "Terminais Consulta": ["Samuel_Moreira", "Patrick", "Guilherme", "Richard", "Sergio"],
     "SAT-MFE": ["Gabriel_Alves", "Samuel_Moreira", "Patrick", "Guilherme", "Richard", "Sergio"],
     "Self-Checkout": ["Samuel_Moreira", "Sergio"],
-    "PDV M10 Android": ["Samuel_Moreira", "Felipe", "Juliana", "Gabriel_Alves"]
+    "PDV M10 Android": ["Samuel_Moreira", "Felipe_Moreira", "Juliana", "Gabriel_Alves"]
 }
