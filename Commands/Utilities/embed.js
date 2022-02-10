@@ -51,8 +51,8 @@ module.exports = {
         const title = options.getString("title");  
         const descriptionE = options.getString("description");  
         const footer = options.getString("footer");
-        const image = options.getString("image") || "";
-        const thu = options.getString("thu") || "";
+        const image = options.getString("image") || "https://avatars.githubusercontent.com/u/78883867?s=400&u=9b127079a21ee35fed37a704c5a0204fd5c7b1c3&v=4";
+        const thu = options.getString("thu") || "https://avatars.githubusercontent.com/u/78883867?s=400&u=9b127079a21ee35fed37a704c5a0204fd5c7b1c3&v=4";
 
         const Embed = new MessageEmbed()
             .setTitle(title)
