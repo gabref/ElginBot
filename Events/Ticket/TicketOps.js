@@ -128,6 +128,23 @@ module.exports = {
                         { Claimed: true, ClaimedBy: member.id }
                     );
 
+                    channel.permissionOverwrites.set(
+                        [
+                            {
+                                id: member.id,
+                                allow: ["SEND_MESSAGES", "VIEW_CHANNEL", "READ_MESSAGE_HISTORY"]
+                            },
+                            {
+                                id: TicketSetup.Handlers,
+                                deny: ["SEND_MESSAGES", "VIEW_CHANNEL", "READ_MESSAGE_HISTORY"]
+                            },
+                            {
+                                id: TicketSetup.Everyone,
+                                deny: ["SEND_MESSAGES", "VIEW_CHANNEL", "READ_MESSAGE_HISTORY"]
+                            }
+                        ]
+                    );
+
                     Embed.setDescription(
                         `👍 | Este ticket foi agora aceito por ${member}`
                     );
