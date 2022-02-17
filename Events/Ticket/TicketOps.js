@@ -128,8 +128,14 @@ module.exports = {
                         { Claimed: true, ClaimedBy: member.id }
                     );
 
+                    if(docs.MembersID.length > 1) console.log("Algo de errado não está certo - TicketOps claim");
+
                     channel.permissionOverwrites.set(
                         [
+                            {
+                                id: docs.MembersID[0],
+                                allow: ["SEND_MESSAGES", "VIEW_CHANNEL", "READ_MESSAGE_HISTORY"]
+                            },
                             {
                                 id: member.id,
                                 allow: ["SEND_MESSAGES", "VIEW_CHANNEL", "READ_MESSAGE_HISTORY"]
