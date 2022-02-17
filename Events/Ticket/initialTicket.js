@@ -76,7 +76,7 @@ module.exports = {
                 .setEmoji("🔓"),
                 new MessageButton()
                 .setCustomId("claim")
-                .setLabel("Claim")
+                .setLabel("Aceitar")
                 .setStyle("PRIMARY")
                 .setEmoji("👍") 
             );
