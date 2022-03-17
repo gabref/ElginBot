@@ -12,27 +12,32 @@ runScript.start()
 
 async function youtubeSearch() { 
 
+    try {
+        
+        let scriptOutput = ""
     
-    let scriptOutput = ""
-
-    const pythonProcess = spawn('python', ['youtube-search.py'])
-    pythonProcess.stdout.setEncoding('utf8')
-    pythonProcess.stdout.on('data', (data) => {
-        scriptOutput = JSON.parse(data)
-        if(scriptOutput.error === "false"){
-            videoAlreadySent(scriptOutput.id,
-                             scriptOutput.linkVideo,
-                             scriptOutput.thumbnail,
-                             scriptOutput.title,
-                             scriptOutput.thumbnail,
-                             scriptOutput.channel)
-        } else {
-            console.log(scriptOutput.error)
-        }
-    })
-    pythonProcess.on('close', (code) => {
-        console.log('closing code: ' + code)
-    })
+        const pythonProcess = spawn('python', ['youtube-search.py'])
+        pythonProcess.stdout.setEncoding('utf8')
+        pythonProcess.stdout.on('data', (data) => {
+            scriptOutput = JSON.parse(data)
+            if(scriptOutput.error === "false"){
+                videoAlreadySent(scriptOutput.id,
+                                 scriptOutput.linkVideo,
+                                 scriptOutput.thumbnail,
+                                 scriptOutput.title,
+                                 scriptOutput.thumbnail,
+                                 scriptOutput.channel)
+            } else {
+                console.log(scriptOutput.error)
+            }
+        })
+        pythonProcess.on('close', (code) => {
+            console.log('closing code: ' + code)
+        })
+        
+    } catch (error) {
+        console.log('erro no processo python: ', error)     
+    }
 }
 
 function connectDB(){
