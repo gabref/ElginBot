@@ -6,3 +6,21 @@ channel: #📬┊abrir-um-ticket category: #╭ 👨💻 | TICKET SYSTEM ╮ tra
 
 
 indicadores nas stats de quantidade de membros por produto, por linguagem
+
+// pythonProcess.stdout.on('data', (data) => {
+        //     console.log(data)
+        //     scriptOutput = JSON.parse(data)
+        //     if(scriptOutput.error === "false"){
+        //         videoAlreadySent(scriptOutput.id,
+        //                          scriptOutput.linkVideo,
+        //                          scriptOutput.thumbnail,
+        //                          scriptOutput.title,
+        //                          scriptOutput.thumbnail,
+        //                          scriptOutput.channel)
+        //     } else {
+        //         console.log(scriptOutput.error)
+        //     }
+        // })
+        // pythonProcess.on('close', (code) => {
+        //     console.log('closing code: ' + code)
+        // })
