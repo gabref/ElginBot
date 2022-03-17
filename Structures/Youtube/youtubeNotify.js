@@ -9,7 +9,7 @@ const databaseURL = process.env.DATABASEURL
 
 connectDB()
 
-let runScript = new cron.CronJob('* * 0-22/2 * * *', youtubeSearch)
+let runScript = new cron.CronJob('0 0 0-22/2 * * *', youtubeSearch)
 runScript.start()
 
 async function youtubeSearch() { 
