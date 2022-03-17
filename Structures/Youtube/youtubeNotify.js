@@ -1,5 +1,4 @@
 const cron = require('cron') 
-const logger = require('../../Systems/Logs').Logger
 const { WebhookClient, MessageEmbed } = require('discord.js')
 const spawn = require('child_process').spawn
 const videosDB = require('../Schemas/YoutubeUpdates')
@@ -28,11 +27,11 @@ async function youtubeSearch() {
                              scriptOutput.thumbnail,
                              scriptOutput.channel)
         } else {
-            logger.error(scriptOutput.error)
+            console.log(scriptOutput.error)
         }
     })
     pythonProcess.on('close', (code) => {
-        logger.info('closing code: ' + code)
+        console.log('closing code: ' + code)
     })
 }
 
@@ -61,7 +60,6 @@ async function videoAlreadySent(_id, _link, _icon_url, _title, _thumb, _channel)
                     channel: _channel,
                 }
             )
-            logger.info('data written to database')
             console.log('data written to database')
 
             const id = processs.env.YOUTUBE_WEBHOOK_ID
