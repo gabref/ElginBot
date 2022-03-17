@@ -64,9 +64,9 @@ async function videoAlreadySent(_id, _link, _icon_url, _title, _thumb, _channel)
             logger.info('data written to database')
             console.log('data written to database')
 
-            const id = '940809220188696627';
-            const token = '_wiXG_PHhZIbUHFxeg0XikqdT8lIgMNbM8NjRJTW2nbQ4SJ1S71NR5GJfmXrXQXymMIf';
-            const webhook = new WebhookClient({id, token}); 
+            const id = processs.env.YOUTUBE_WEBHOOK_ID
+            const token = process.env.YOUTUBE_WEBHOOK_TOKEN
+            const webhook = new WebhookClient({id, token}) 
             
             const Embed = new MessageEmbed()
                 .setTitle("Vídeo novoo")
