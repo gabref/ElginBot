@@ -62,7 +62,7 @@ async function videoAlreadySent(_id, _link, _icon_url, _title, _thumb, _channel)
             )
             console.log('data written to database')
 
-            const id = processs.env.YOUTUBE_WEBHOOK_ID
+            const id = process.env.YOUTUBE_WEBHOOK_ID
             const token = process.env.YOUTUBE_WEBHOOK_TOKEN
             const webhook = new WebhookClient({id, token}) 
             
