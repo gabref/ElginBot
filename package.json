@@ -5,6 +5,7 @@
   "main": "./Structures/bot.js",
   "scripts": {
     "start": "node ./Structures/bot.js",
+    "heroku-script": "concurrently \"node ./Structures/bot.js\" \"node ./Structures/Youtube/youtubeNotify.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
   "dependencies": {
     "ascii-table": "^0.0.9",
     "canvas": "^2.9.0",
+    "concurrently": "^7.0.0",
     "cron": "^1.8.2",
     "discord-giveaways": "^5.1.0",
     "discord-html-transcripts": "^1.1.3",

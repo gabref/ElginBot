@@ -24,3 +24,10 @@ indicadores nas stats de quantidade de membros por produto, por linguagem
         // pythonProcess.on('close', (code) => {
         //     console.log('closing code: ' + code)
         // })
+
+
+pipinstall: pip install -r requirements.txt
+worker2: cd ./Structures/Youtube && node youtubeNotify.js
+
+
+worker: node ./Structures/bot.js & cd ./Structures/Youtube & node youtubeNotify.js
