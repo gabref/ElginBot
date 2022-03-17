@@ -19,6 +19,7 @@ async function youtubeSearch() {
         const pythonProcess = spawn('python', ['youtube-search.py'])
         pythonProcess.stdout.setEncoding('utf8')
         pythonProcess.stdout.on('data', (data) => {
+            console.log(data)
             scriptOutput = JSON.parse(data)
             if(scriptOutput.error === "false"){
                 videoAlreadySent(scriptOutput.id,
