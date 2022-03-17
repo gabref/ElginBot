@@ -14,7 +14,7 @@ try:
         "linkVideo": playlist.videos[0]['link'],
         "thumbnail": playlist.videos[0]['thumbnails'][0]['url'],
         "channel": playlist.videos[0]['channel']['name'],
-        "error": "false"
+        "error": "false",
     }
     print(json.dumps(resp))
     sys.stdout.flush()
