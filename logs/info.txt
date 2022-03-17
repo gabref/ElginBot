@@ -273,3 +273,100 @@ Logged in as ElginBot#0985
 2022-02-10T21:15:22.112Z : The client is now ready! 
 Logged in as ElginBot#0985
 2022-02-10T21:15:24.466Z : The client is now connected to the database!
+2022-03-16T17:34:33.900Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T17:34:47.238Z : The client is now connected to the database!
+2022-03-16T18:15:32.617Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T18:15:32.645Z : Função Youtube
+2022-03-16T18:16:46.257Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T18:16:46.273Z : Função Youtube
+2022-03-16T18:18:52.200Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T18:18:52.215Z : Função Youtube
+2022-03-16T18:19:26.513Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T18:19:26.532Z : Função Youtube
+2022-03-16T18:19:29.489Z : The client is now connected to the database!
+2022-03-16T19:58:06.409Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T19:58:19.309Z : The client is now connected to the database!
+2022-03-16T19:59:55.358Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T20:00:02.905Z : The client is now connected to the database!
+2022-03-16T20:01:43.264Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T20:01:46.961Z : The client is now connected to the database!
+2022-03-16T20:03:01.501Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T20:03:04.304Z : The client is now connected to the database!
+2022-03-16T20:04:02.334Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T20:04:05.065Z : The client is now connected to the database!
+2022-03-16T20:08:02.484Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T20:08:05.034Z : The client is now connected to the database!
+2022-03-16T21:15:29.931Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T21:15:32.605Z : The client is now connected to the database!
+2022-03-16T21:16:14.915Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T21:16:17.419Z : The client is now connected to the database!
+2022-03-16T21:16:45.393Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-16T21:16:47.947Z : The client is now connected to the database!
+2022-03-17T00:32:46.572Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:32:49.358Z : The client is now connected to the database!
+2022-03-17T00:38:01.976Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:38:04.214Z : The client is now connected to the database!
+2022-03-17T00:39:11.234Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:40:17.237Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:40:20.187Z : The client is now connected to the database!
+2022-03-17T00:43:59.469Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:44:01.797Z : The client is now connected to the database!
+2022-03-17T00:48:09.545Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:48:12.051Z : The client is now connected to the database!
+2022-03-17T00:49:18.985Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:49:21.569Z : The client is now connected to the database!
+2022-03-17T00:52:54.555Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:53:17.506Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T00:53:19.827Z : The client is now connected to the database!
+2022-03-17T01:24:50.959Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T01:24:53.276Z : The client is now connected to the database!
+2022-03-17T01:27:24.946Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T01:27:27.587Z : The client is now connected to the database!
+2022-03-17T01:32:53.283Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T01:47:03.473Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T01:47:05.920Z : The client is now connected to the database!
+2022-03-17T01:51:38.636Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T01:51:41.159Z : The client is now connected to the database!
+2022-03-17T02:01:24.860Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T02:01:27.215Z : The client is now connected to the database!
+2022-03-17T02:11:53.739Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T02:11:56.477Z : The client is now connected to the database!
+2022-03-17T02:23:15.199Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T02:23:17.459Z : The client is now connected to the database!
+2022-03-17T02:26:02.394Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T02:26:04.713Z : The client is now connected to the database!
+2022-03-17T08:25:00.757Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-17T08:25:13.268Z : The client is now connected to the database!
