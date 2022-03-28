@@ -430,3 +430,125 @@ Logged in as ElginBot#0985
 2022-03-17T12:27:16.327Z : The client is now ready! 
 Logged in as ElginBot#0985
 2022-03-17T12:27:18.657Z : The client is now connected to the database!
+2022-03-27T19:49:28.154Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T19:49:30.997Z : The client is now connected to the database!
+2022-03-27T19:55:39.194Z : messageBottom interaction found no data in the DB
+2022-03-27T20:00:08.228Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T20:00:10.825Z : The client is now connected to the database!
+2022-03-27T20:01:31.740Z : messageBottom interaction found no data in the DB
+2022-03-27T22:08:54.408Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T22:09:06.660Z : The client is now connected to the database!
+2022-03-27T22:25:55.079Z : messageBottom interaction found no data in the DB
+2022-03-27T22:53:06.725Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T22:53:15.064Z : The client is now connected to the database!
+2022-03-27T22:54:07.228Z : messageBottom interaction found no data in the DB
+2022-03-27T22:55:04.496Z : messageBottom interaction found no data in the DB
+2022-03-27T22:56:05.357Z : messageBottom interaction found no data in the DB
+2022-03-27T22:58:25.322Z : messageBottom interaction found no data in the DB
+2022-03-27T22:58:53.923Z : messageBottom interaction found no data in the DB
+2022-03-27T23:17:13.183Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T23:17:15.632Z : The client is now connected to the database!
+2022-03-27T23:18:47.852Z : messageBottom interaction found no data in the DB
+2022-03-27T23:19:24.166Z : messageBottom interaction found no data in the DB
+2022-03-27T23:20:11.259Z : messageBottom interaction found no data in the DB
+2022-03-27T23:20:38.857Z : messageBottom interaction found no data in the DB
+2022-03-27T23:21:04.379Z : messageBottom interaction found no data in the DB
+2022-03-27T23:21:26.337Z : messageBottom interaction found no data in the DB
+2022-03-27T23:21:37.836Z : messageBottom interaction found no data in the DB
+2022-03-27T23:22:18.952Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T23:22:21.519Z : The client is now connected to the database!
+2022-03-27T23:22:49.594Z : messageBottom interaction found no data in the DB
+2022-03-27T23:23:04.546Z : messageBottom interaction found no data in the DB
+2022-03-27T23:23:14.775Z : messageBottom interaction found no data in the DB
+2022-03-27T23:23:32.775Z : messageBottom interaction found no data in the DB
+2022-03-27T23:23:48.482Z : messageBottom interaction found no data in the DB
+2022-03-27T23:24:01.574Z : messageBottom interaction found no data in the DB
+2022-03-27T23:25:23.097Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-27T23:25:25.706Z : The client is now connected to the database!
+2022-03-27T23:25:45.343Z : messageBottom interaction found no data in the DB
+2022-03-27T23:26:01.412Z : messageBottom interaction found no data in the DB
+2022-03-27T23:26:12.182Z : messageBottom interaction found no data in the DB
+2022-03-28T00:07:33.284Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T00:07:35.849Z : The client is now connected to the database!
+2022-03-28T00:07:48.641Z : messageBottom interaction found no data in the DB
+2022-03-28T00:07:49.054Z : 27 mensagens foram apagadas usando o comando clear
+2022-03-28T00:08:25.491Z : messageBottom interaction found no data in the DB
+2022-03-28T00:08:32.625Z : messageBottom interaction found no data in the DB
+2022-03-28T00:08:51.128Z : messageBottom interaction found no data in the DB
+2022-03-28T00:09:02.150Z : messageBottom interaction found no data in the DB
+2022-03-28T00:09:19.508Z : messageBottom interaction found no data in the DB
+2022-03-28T00:09:38.900Z : messageBottom interaction found no data in the DB
+2022-03-28T00:10:02.617Z : messageBottom interaction found no data in the DB
+2022-03-28T00:10:24.895Z : messageBottom interaction found no data in the DB
+2022-03-28T00:10:47.772Z : messageBottom interaction found no data in the DB
+2022-03-28T00:16:19.408Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T00:16:22.289Z : The client is now connected to the database!
+2022-03-28T00:17:45.538Z : messageBottom interaction found no data in the DB
+2022-03-28T00:17:46.060Z : 11 mensagens foram apagadas usando o comando clear
+2022-03-28T00:18:04.366Z : messageBottom interaction found no data in the DB
+2022-03-28T00:18:15.264Z : messageBottom interaction found no data in the DB
+2022-03-28T00:18:27.654Z : messageBottom interaction found no data in the DB
+2022-03-28T00:18:36.547Z : messageBottom interaction found no data in the DB
+2022-03-28T00:18:46.002Z : messageBottom interaction found no data in the DB
+2022-03-28T00:23:14.974Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T00:23:17.598Z : The client is now connected to the database!
+2022-03-28T00:23:32.539Z : messageBottom interaction found no data in the DB
+2022-03-28T00:23:40.194Z : messageBottom interaction found no data in the DB
+2022-03-28T00:23:51.428Z : messageBottom interaction found no data in the DB
+2022-03-28T00:23:56.656Z : messageBottom interaction found no data in the DB
+2022-03-28T00:24:05.867Z : messageBottom interaction found no data in the DB
+2022-03-28T00:24:16.054Z : messageBottom interaction found no data in the DB
+2022-03-28T00:24:25.200Z : messageBottom interaction found no data in the DB
+2022-03-28T00:24:46.872Z : messageBottom interaction found no data in the DB
+2022-03-28T00:24:55.266Z : messageBottom interaction found no data in the DB
+2022-03-28T00:25:01.014Z : messageBottom interaction found no data in the DB
+2022-03-28T00:25:11.284Z : messageBottom interaction found no data in the DB
+2022-03-28T00:57:18.463Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T00:57:21.917Z : The client is now connected to the database!
+2022-03-28T00:57:30.043Z : messageBottom interaction found no data in the DB
+2022-03-28T00:57:34.450Z : messageBottom interaction found no data in the DB
+2022-03-28T00:57:45.098Z : messageBottom interaction found no data in the DB
+2022-03-28T00:58:00.160Z : messageBottom interaction found no data in the DB
+2022-03-28T00:58:08.803Z : messageBottom interaction found no data in the DB
+2022-03-28T00:58:17.607Z : messageBottom interaction found no data in the DB
+2022-03-28T00:59:12.303Z : messageBottom interaction found no data in the DB
+2022-03-28T00:59:12.818Z : 39 mensagens foram apagadas usando o comando clear
+2022-03-28T00:59:53.589Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T00:59:56.444Z : The client is now connected to the database!
+2022-03-28T01:05:51.024Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T01:05:55.277Z : The client is now connected to the database!
+2022-03-28T01:06:05.145Z : messageBottom interaction found no data in the DB
+2022-03-28T01:06:16.795Z : messageBottom interaction found no data in the DB
+2022-03-28T01:06:22.803Z : messageBottom interaction found no data in the DB
+2022-03-28T01:06:28.750Z : messageBottom interaction found no data in the DB
+2022-03-28T01:06:32.950Z : messageBottom interaction found no data in the DB
+2022-03-28T01:06:41.384Z : messageBottom interaction found no data in the DB
+2022-03-28T01:06:46.356Z : messageBottom interaction found no data in the DB
+2022-03-28T01:07:04.412Z : messageBottom interaction found no data in the DB
+2022-03-28T01:07:22.528Z : messageBottom interaction found no data in the DB
+2022-03-28T01:07:46.708Z : messageBottom interaction found no data in the DB
+2022-03-28T01:07:55.783Z : messageBottom interaction found no data in the DB
+2022-03-28T01:08:14.133Z : messageBottom interaction found no data in the DB
+2022-03-28T01:08:48.767Z : messageBottom interaction found no data in the DB
+2022-03-28T01:08:57.896Z : messageBottom interaction found no data in the DB
+2022-03-28T01:09:03.909Z : messageBottom interaction found no data in the DB
+2022-03-28T01:09:12.929Z : messageBottom interaction found no data in the DB
+2022-03-28T01:09:19.175Z : messageBottom interaction found no data in the DB
+2022-03-28T01:11:27.656Z : messageBottom interaction found no data in the DB
+2022-03-28T02:01:57.253Z : messageBottom interaction found no data in the DB
+2022-03-28T10:55:19.714Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-03-28T10:55:32.112Z : The client is now connected to the database!
