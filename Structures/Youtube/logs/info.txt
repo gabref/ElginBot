@@ -1,0 +1,52 @@
+2022-04-01 21:00:01 : stdout chunk: {"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-01 21:00:01 : async result:
+{"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-01 21:00:01 : Fiz a pesquisa no youtube
+2022-04-01 21:00:02 : vídeo já tá lá
+2022-04-01 23:00:01 : stdout chunk: {"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-01 23:00:01 : async result:
+{"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-01 23:00:01 : Fiz a pesquisa no youtube
+2022-04-01 23:00:01 : vídeo já tá lá
+2022-04-02 01:00:01 : stdout chunk: {"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 01:00:01 : async result:
+{"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 01:00:01 : Fiz a pesquisa no youtube
+2022-04-02 01:00:01 : vídeo já tá lá
+2022-04-02 05:36:08 : stdout chunk: {"error": "true"}
+
+2022-04-02 05:36:08 : async result:
+{"error": "true"}
+
+2022-04-02 12:38:40 : stdout chunk: {"error": "true"}
+
+2022-04-02 12:38:41 : async result:
+{"error": "true"}
+
+2022-04-02 13:00:01 : stdout chunk: {"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 13:00:01 : async result:
+{"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 13:00:01 : Fiz a pesquisa no youtube
+2022-04-02 13:00:02 : vídeo já tá lá
+2022-04-02 15:00:01 : stdout chunk: {"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 15:00:01 : async result:
+{"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 15:00:01 : Fiz a pesquisa no youtube
+2022-04-02 15:00:01 : vídeo já tá lá
+2022-04-02 21:28:02 : stdout chunk: {"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 21:28:02 : async result:
+{"id": "hndHNQvmrW0", "title": "Low-Code e No-Code em equipamentos de Automa\u00e7\u00e3o Comercial", "linkVideo": "https://www.youtube.com/watch?v=hndHNQvmrW0&list=UUHi3XOV29069nPfqeCNrHTA&index=1", "thumbnail": "https://i.ytimg.com/vi/hndHNQvmrW0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAMccpGA0Ck9xoqpTEpIqS5x_OLbw", "channel": "Elgin Automa\u00e7\u00e3o", "error": "false"}
+
+2022-04-02 21:28:02 : Fiz a pesquisa no youtube
+2022-04-02 21:28:05 : vídeo já tá lá

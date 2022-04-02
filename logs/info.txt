@@ -1,0 +1,58 @@
+2022-04-01T15:05:58.585Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T15:06:11.193Z : The client is now connected to the database!
+2022-04-01T15:06:14.132Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T15:07:22.565Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T15:07:31.129Z : The client is now connected to the database!
+2022-04-01T15:13:14.569Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T15:13:55.791Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T15:13:58.606Z : The client is now connected to the database!
+2022-04-01T15:14:04.827Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T15:15:08.265Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T15:15:15.298Z : The client is now connected to the database!
+2022-04-01T15:15:19.253Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T19:55:08.344Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T19:55:11.111Z : The client is now connected to the database!
+2022-04-01T19:55:26.400Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T19:57:09.501Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T19:57:13.590Z : The client is now connected to the database!
+2022-04-01T19:57:25.382Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T20:03:17.699Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T20:03:21.192Z : The client is now connected to the database!
+2022-04-01T20:03:30.940Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T20:03:31.248Z : messageBottom interaction found no data in the DB
+2022-04-01T20:06:37.075Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T20:06:40.433Z : The client is now connected to the database!
+2022-04-01T20:07:14.212Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T20:07:14.559Z : messageBottom interaction found no data in the DB
+2022-04-01T20:46:47.451Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T20:46:50.330Z : The client is now connected to the database!
+2022-04-01T20:47:05.554Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T20:49:02.539Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T20:49:05.947Z : The client is now connected to the database!
+2022-04-01T20:49:15.254Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T20:49:15.844Z : messageBottom interaction found no data in the DB
+2022-04-01T21:08:59.124Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T21:09:02.323Z : The client is now connected to the database!
+2022-04-01T21:09:21.289Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T21:09:21.713Z : messageBottom interaction found no data in the DB
+2022-04-01T21:16:49.840Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T21:16:52.773Z : The client is now connected to the database!
+2022-04-01T21:18:50.403Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T21:18:50.949Z : messageBottom interaction found no data in the DB
+2022-04-01T22:12:16.181Z : The client is now ready! 
+Logged in as ElginBot#0985
+2022-04-01T22:12:19.056Z : The client is now connected to the database!
+2022-04-01T22:12:29.394Z : Um membro fictício foi adicionado ao servidor.
+2022-04-01T22:12:29.746Z : messageBottom interaction found no data in the DB
