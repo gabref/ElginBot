@@ -71,7 +71,7 @@ module.exports = {
         // Use the helpful Attachment class structure to process the file for you
         const attachment = new MessageAttachment(welcomeCanvas.toBuffer(), `welcome-${member.id}.png`);
     
-        Welcomer.send({ files: [attachment] });
+        Welcomer.send({ content: `<@${user.id}>`, files: [attachment] });
         
     }
 }
