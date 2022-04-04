@@ -46,13 +46,13 @@ module.exports = {
                 })
     
                 await channel.bulkDelete(filtered, true).then(messages => {
-                    Response.setDescription(`🧹 Cleared ${messages.size} from ${Target}.`);
+                    Response.setDescription(`🧹 Apaguei ${messages.size} mensagens de ${Target}.`);
                     interaction.reply({embeds: [Response]});
                     logger.info(`${messages.size} mensagens do usuário ${Target} foram apagadas usando o comando clear`)
                 })
             } else {
                 await channel.bulkDelete(Amount, true).then(messages => {
-                    Response.setDescription(`🧹 Cleared ${messages.size} from this channel.`);
+                    Response.setDescription(`🧹 Apaguei ${messages.size} mensagens desse canal.`);
                     interaction.reply({embeds: [Response]});
                     logger.info(`${messages.size} mensagens foram apagadas usando o comando clear`)
                 })
