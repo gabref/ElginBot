@@ -1,4 +1,5 @@
-const { MessageReaction, User, Client, MessageEmbed } = require('discord.js')
+const { Client, MessageEmbed } = require('discord.js')
+const fs = require('fs')
 const logger = require('../../Systems/Logs').Logger;
 
 module.exports = {
@@ -12,18 +13,16 @@ module.exports = {
 
         const channelId = '922462864017600563';
 
-        const reactionsL = ["🐍", "🧱", "👴", "↗", "🪓", "⚔", "🎮", "🏛", "🍎", "📊", "🎲", "🔧", "📱", "🔥", "🧊", "🤳", "🎓", "🚈", "🥽", "🔲"];
-        const cargosL = ["Python", "Java", "VB6", "Javascript", "C", "C++", "C#", "Delphi", "Swift", "SQL", "Dart", "Rust", "Flutter", "Fire Monkey", "Ionic", "Xamarin Android", "Xamarin Forms", "Kotlin", "ReactNative", "WinDev"];
-        const reactionsI = ["👶", "🧒", "🧑", "🧓"]
-        const cargosI = ["Trainee", "Junior", "Plêno", "Sênior"];
-        const reactionsC = ["👽", "✨", "👷‍♂️", "🚀", "📞", "📈", "👨‍🔬", "🕹", "🎨", "🕵️‍♂️", "🐧" ];
-        const cargosC = ["Android", "Front End", "Back End", "Fullstack", "Mobile", "Dev Ops", "Data Science", "Game Dev", "UX / UI design", "Cyber Security", "Linux"];
+        const rawdataJson = fs.readFileSync('./Events/ReactionRoles/reactions.json')
+        const jsonR = JSON.parse(rawdataJson)
+        const reactionsC = jsonR.reactionsC
+        const reactionsL = jsonR.reactionsL
+        const cargosC = jsonR.cargosC
+        const cargosL = jsonR.cargosL
 
         emojiTextL = "";
-        emojiTextI = "";
         emojiTextC = "";
         cargosL.forEach((v, i) => { if(i < 20) emojiTextL += `${reactionsL[i]} = ${v}\n` });
-        cargosI.forEach((v, i) => { if(i < 20) emojiTextI += `${reactionsI[i]} = ${v}\n` });
         cargosC.forEach((v, i) => { if(i < 20) emojiTextC += `${reactionsC[i]} = ${v}\n` });
 
         const reactionEmbedLanguages = new MessageEmbed()
@@ -35,14 +34,6 @@ module.exports = {
             .setThumbnail('https://avatars.githubusercontent.com/u/78883867?v=4')
             // .setImage('')
             .setFooter({ text: 'Wubba Lubba lub lub' });
-        const reactionEmbedDev = new MessageEmbed()
-            .setColor('#0099ff')
-            .setTitle('Escolha os seus interesses!')
-            .setURL('https://github.com/ElginDeveloperCommunity')
-            .setAuthor({ name: 'Elgin Developers Community', iconURL: 'https://avatars.githubusercontent.com/u/78883867?v=4', url: 'https://github.com/ElginDeveloperCommunity' })
-            .setDescription(emojiTextI)
-            .setThumbnail('https://avatars.githubusercontent.com/u/78883867?v=4')
-            .setFooter({ text: 'Boom! Big reveal! I turned myself into a pickle!' });
         const reactionEmbedConhecimento = new MessageEmbed()
             .setColor('DARK_GREEN')
             .setTitle('Escolha o seu nível de conhecimento!')
@@ -59,10 +50,6 @@ module.exports = {
                 channel.send({ embeds: [reactionEmbedConhecimento] }).then((m) => {
                     addReactions(m, reactionsC);
                 }).then(() => {
-                    channel.send({ embeds: [reactionEmbedDev] }).then((m) => {
-                        addReactions(m, reactionsI);
-                    })
-                }).then(() => {
                     channel.send({ embeds: [reactionEmbedLanguages] }).then((m) => {
                         addReactions(m, reactionsL);
                     });
@@ -75,10 +62,6 @@ module.exports = {
                     if (titleEmbed.includes("linguagens")){
                         message[1].edit({ embeds: [reactionEmbedLanguages]});
                         await addReactions(message[1], reactionsL);
-                    }
-                    else if (titleEmbed.includes("interesses")){
-                        message[1].edit({ embeds: [reactionEmbedDev]});
-                        await addReactions(message[1], reactionsI);
                     } else {
                         message[1].edit({ embeds: [reactionEmbedConhecimento]});
                         await addReactions(message[1], reactionsC);

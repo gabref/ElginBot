@@ -1,4 +1,5 @@
 const { MessageReaction, User } = require("discord.js");
+const fs = require('fs')
 const userDB = require('../../Structures/Schemas/User')
 const logger = require('../../Systems/Logs').Logger;
 
@@ -20,25 +21,18 @@ module.exports = {
         let UsuarioDB = await userDB.findOne({ UserID: user.id });
         if (!UsuarioDB) UsuarioDB = await userDB.create({ UserID: user.id });
 
-        const reactionsL = ["🐍", "🧱", "👴", "↗", "🪓", "⚔", "🎮", "🏛", "🍎", "📊", "🎲", "🔧", "📱", "🔥", "🧊", "🤳", "🎓", "🚈", "🥽", "🔲"];
-        const cargosL = ["Python", "Java", "VB6", "Javascript", "C", "C++", "C#", "Delphi", "Swift", "SQL", "Dart", "Rust", "Flutter", "Fire Monkey", "Ionic", "Xamarin Android", "Xamarin Forms", "Kotlin", "ReactNative", "WinDev"];
-        const reactionsI = ["👶", "🧒", "🧑", "🧓"]
-        const cargosI = ["Trainee", "Junior", "Plêno", "Sênior"];
-        const reactionsC = ["👽", "✨", "👷‍♂️", "🚀", "📞", "📈", "👨‍🔬", "🕹", "🎨", "🕵️‍♂️", "🐧" ];
-        const cargosC = ["Android", "Front End", "Back End", "Fullstack", "Mobile", "Dev Ops", "Data Science", "Game Dev", "UX / UI design", "Cyber Security", "Linux"];
-        
         try{
-            const indexL = reactionsL.indexOf(reaction._emoji.name);
-            const indexI = reactionsI.indexOf(reaction._emoji.name);
-            const indexC = reactionsC.indexOf(reaction._emoji.name);
-            let cargos = 
-                indexL != -1 ? cargosL : 
-                indexI != -1 ? cargosI : 
-                               cargosC;
-            let i = 
-                indexL != -1 ? indexL : 
-                indexI != -1 ? indexI : 
-                               indexC;
+            const rawdataJson = fs.readFileSync('./Events/ReactionRoles/reactions.json')
+            const jsonR = JSON.parse(rawdataJson)
+            const reactionsC = jsonR.reactionsC
+            const reactionsL = jsonR.reactionsL
+            const cargosC = jsonR.cargosC
+            const cargosL = jsonR.cargosL
+
+            const indexL = reactionsL.indexOf(`<:${reaction._emoji.name}:${reaction._emoji.id}>`);
+            const indexC = reactionsC.indexOf(`<:${reaction._emoji.name}:${reaction._emoji.id}>`);
+            let cargos = indexL != -1 ? cargosL : cargosC;
+            let i = indexL != -1 ? indexL : indexC;
             const role = reaction.message.guild.roles.cache.find(r => r.name === cargos[i]);
     
             await reaction.message.guild.members.cache.get(user.id).roles.add(role);
