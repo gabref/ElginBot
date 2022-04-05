@@ -3,4 +3,4 @@ node_modules
 passo.txt
 lista-comandos.txt
 ReactionRolesSetUp.js
-logs
+logs/*.txt
