@@ -104,7 +104,7 @@ module.exports = {
                 const winnerCount = options.getInteger("winners");
                 const prize = options.getString("prize");
 
-                client.giveawaysManager.start(interaction.channel, {
+                client.giveawaysManager.start(gchannel, {
                     duration: ms(duration),
                     winnerCount,
                     prize,
