@@ -20,9 +20,11 @@ module.exports = {
                 message.mentions.members.forEach((m) => {
                     DB.findOne({ GuildID: message.guild.id, UserID: m.id}, async (err, data) => {
                         if(err) throw err;
-                        if(data)
-                        Embed.setDescription(`${m} foi AFK <t:${data.Time}:R>\n **Status**:${data.Status}`);
-                        return message.reply({embeds: [Embed]});
+                        if(!data) return
+                        if(data) {
+                            Embed.setDescription(`${m} foi AFK <t:${data.Time}:R>\n **Status**:${data.Status}`);
+                            return message.reply({embeds: [Embed]});
+                        }
                     })
                 })
             }
