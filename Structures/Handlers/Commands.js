@@ -58,7 +58,7 @@ module.exports = async (client, PG, Ascii) => {
                 return [...accumulator, {id: r.id, permissions}]
             }, [])
 
-            await MainGuild.commands.permissions.set({ fullPermissions })
+            // await MainGuild.commands.permissions.set({ fullPermissions })
         })
     })
 }
