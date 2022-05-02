@@ -16,6 +16,9 @@ module.exports = {
                 .setDescription('🛑 An error occured while running this command.')
             ]}) && client.command.delete(interaction.commandName)
 
+            if (command.permission && !interaction.member.permissions.has(command.permission)) {
+                return interaction.reply({ content: `Você não tem as permissões necessárias para usar esse comando: \`${interaction.commandName}\`.`, ephemeral: true })
+            }
             command.execute(interaction, client)
         }
     }
