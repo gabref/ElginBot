@@ -3,12 +3,10 @@ module.exports = {
     {
     name: 'elginbot',
     script: './Structures/bot.js',
-    watch: true,
-    ignore_watch: ["logs", "node_modules"]
+    watch: false
   }, {
     name: 'youtubebot',
     script: './Structures/Youtube/youtubeNotify.js',
-    watch: true,
-    ignore_watch: ["logs", "node_modules"]
+    watch: false
   }],
 };
