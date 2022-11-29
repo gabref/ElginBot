@@ -5,8 +5,21 @@ on:
     branches: [ main ]
 
 jobs:
-  deploy:
+  launch-elginbot:
     runs-on: ubuntu-latest
     steps:
-    - name: Run a one-line script
-      run: echo hello world
+    - name: SSH Remote Commands
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        username: ${{ secrets.USERNAME }}
+        host: ${{ secrets.HOST }}
+        key: ${{ secrets.KEY }}
+        script: |
+          cd ElginBot
+          git pull
+          pip3 install -r requirements.txt
+          nvm install v16.13.2
+          npm i pm2 -g
+          npm i
+          pm2 stop all
+          pm2 start ecosystem.config.js
